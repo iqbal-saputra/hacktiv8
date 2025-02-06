@@ -19,10 +19,10 @@ Selama bootcamp, saya menggunakan berbagai tools, termasuk:
 - **ElasticSearch** / **Kibana**
 
 ## 🔥 Project  
-Beberapa proyek menarik yang telah saya kerjakan: 
-✅ **Marketing Campaign** – Pengolahan data marketing dari data raw sampai dengan dashboard
-✅ **Shipping Analysis and Prediction** – Clustering pelanggan berdasarkan pola transaksi  
-✅ **House Price Prediction** – Prediksi perubahan harga rumah di IKN
+Beberapa proyek menarik yang telah saya kerjakan:\n
+✅ **Marketing Campaign** – Pengolahan data marketing dari data raw sampai dengan dashboard\n
+✅ **Shipping Analysis and Prediction** – Clustering pelanggan berdasarkan pola transaksi\n
+✅ **House Price Prediction** – Prediksi perubahan harga rumah di IKN\n
 
 ## 📢 Catatan  
 Repository ini dibuat sebagai dokumentasi pembelajaran dan latihan saya selama mengikuti bootcamp. Feel free to explore, senang jika bisa menjadi manfaat!
