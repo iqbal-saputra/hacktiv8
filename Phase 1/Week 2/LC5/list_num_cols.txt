@@ -1,0 +1,1 @@
+["Age", "DistanceFromHome", "MonthlyIncome", "TotalWorkingYears", "YearsAtCompany", "YearsInCurrentRole", "YearsSinceLastPromotion", "YearsWithCurrentManager", "MonthsAtCompany", "NewPercentSalaryHike"]

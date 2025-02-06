@@ -1,0 +1,58 @@
+-- DDL operations
+-- Membuat database
+CREATE DATABASE electric_vehicle_db;
+
+-- Menggunakan database yang baru dibuat
+SET search_path TO electric_vehicle_db;
+
+-- Membuat table
+CREATE TABLE table_m3 (
+    vin_1_10 VARCHAR(100),
+    county VARCHAR(100),
+    city VARCHAR(100),
+    state VARCHAR(2),
+    postal_code INTEGER,
+    model_year INTEGER,
+    make VARCHAR(100),
+    model VARCHAR(100),
+    electric_vehicle_type VARCHAR(100),
+    clean_alternative_fuel_vehicle_cafv_eligibility VARCHAR(100),
+    electric_range INTEGER,
+    base_msrp INTEGER,
+    legislative_district INTEGER,
+    dol_vehicle_id INTEGER,
+    vehicle_location VARCHAR(100),
+    electric_utility VARCHAR(1000),
+    census_tract_2020 NUMERIC(14,2)
+);
+
+-- DML operations
+
+BEGIN;
+
+-- Menggunakan perintah COPY untuk memasukkan data dari file CSV
+COPY table_m3 (
+  vin_1_10,
+  county,
+  city,
+  state,
+  postal_code,
+  model_year,
+  make,
+  model,
+  electric_vehicle_type,
+  clean_alternative_fuel_vehicle_cafv_eligibility,
+  electric_range,
+  base_msrp,
+  legislative_district,
+  dol_vehicle_id,
+  vehicle_location,
+  electric_utility,
+  census_tract_2020
+) FROM 'C:/tmp/P2M3_iqbal_saputra_data_raw.csv'
+DELIMITER ','
+CSV HEADER;
+
+SELECT * FROM table_m3 LIMIT 5;
+
+COMMIT;

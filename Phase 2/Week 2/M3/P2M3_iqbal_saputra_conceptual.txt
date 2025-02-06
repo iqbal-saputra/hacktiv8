@@ -1,0 +1,25 @@
+1. NoSQL adalah tipe database yang tidak menggunakan model relasional tradisional untuk menyimpan data. NoSQL didesain untuk menangani volume data yang besar, variasi data yang luas, dan kecepatan akses yang tinggi. NoSQL menggunakan berbagai model data seperti dokumen, grafik, key-value, dan kolom lebar untuk menyimpan data dengan lebih fleksibel.
+
+2. 
+   - NoSQL:
+     - Digunakan saat membutuhkan skalabilitas horizontal yang tinggi untuk menangani volume data yang besar.
+     - Ketika data memiliki struktur yang tidak tetap atau sering berubah.
+     - Cocok untuk aplikasi yang membutuhkan kecepatan akses dan penulisan data yang tinggi.
+     - Saat bekerja dengan data yang tersebar di berbagai lokasi geografis.
+   - Relational Database Management System (RDBMS):
+     - Digunakan saat data memiliki struktur yang tetap dan relasi antar tabel yang kompleks.
+     - Cocok untuk transaksi yang membutuhkan konsistensi dan integritas data yang tinggi.
+     - Ketika memerlukan dukungan kuat untuk operasi ACID (Atomicity, Consistency, Isolation, Durability).
+     - Untuk aplikasi yang membutuhkan kueri SQL yang kompleks dan ad-hoc.
+
+3. 
+   - MongoDB:
+     - Keunggulannya terletak pada dukungan model dokumen yang fleksibel dengan penyimpanan mirip JSON, mudah diintegrasikan dengan aplikasi modern, dan memiliki fitur replikasi dan sharding untuk skalabilitas dan ketersediaan yang tinggi.
+   - Amazon DynamoDB:
+     - Keunggulannya adalah menyediakan latensi yang sangat rendah dan skalabilitas yang tanpa batas, dengan dukungan penuh untuk replikasi multi-region dan kemampuan auto-scaling untuk menangani beban kerja yang dinamis.
+
+4. Apache Airflow adalah platform manajemen alur kerja yang memungkinkan pengguna untuk mengotomatisasi, menjadwalkan, dan memonitor alur kerja yang kompleks. Airflow menggunakan Directed Acyclic Graphs (DAGs) untuk menentukan dependensi antar tugas, dan menyediakan antarmuka pengguna yang intuitif untuk memantau dan mengelola pekerjaan. Airflow sangat berguna dalam mengelola proses ETL, data pipeline, dan orkestrasi pekerjaan data.
+
+5. Great Expectations adalah alat open-source untuk validasi, dokumentasi, dan profil data. Dengan Great Expectations, pengguna dapat menentukan dan menjalankan serangkaian tes untuk memastikan bahwa data mereka memenuhi ekspektasi tertentu sebelum digunakan dalam analisis atau pipeline data. Ini membantu menjaga kualitas data dan mencegah masalah yang dapat timbul dari data yang tidak valid atau tidak lengkap.
+
+6. Batch processing adalah metode pemrosesan data di mana kumpulan data besar dikumpulkan dan diproses dalam satu waktu. Data diproses secara batch daripada secara real-time, sering digunakan untuk tugas-tugas yang tidak memerlukan respons instan. Contoh penggunaan termasuk pemrosesan tagihan bulanan, pemrosesan data log, dan analisis data historis. Alat yang umum digunakan untuk batch processing termasuk Apache Hadoop, Apache Spark, dan AWS Batch. Batch processing memungkinkan efisiensi yang lebih tinggi dalam pemrosesan data besar, meskipun tidak cocok untuk aplikasi yang membutuhkan data real-time.

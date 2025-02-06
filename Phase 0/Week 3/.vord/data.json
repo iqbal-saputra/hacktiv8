@@ -1,0 +1,17 @@
+[
+    {
+        "name":"yuda",
+        "location":"jakarta",
+        "age":26
+    },
+    {
+        "name":"iqbal",
+        "location":"bandung",
+        "age": 30
+    },
+    {
+        "name":"ojan",
+        "location":"surabaya",
+        "age":25
+    }
+]

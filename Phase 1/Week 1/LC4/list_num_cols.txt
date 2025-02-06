@@ -1,0 +1,1 @@
+["founded_year", "uk_rank", "world_rank", "minimum_ielts_score", "international_students", "cost_of_living"]
